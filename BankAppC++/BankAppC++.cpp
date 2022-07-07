@@ -1,23 +1,10 @@
 // BankAppC++.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
-#include <iostream>
-#include "Register.h"
+#include "Initialize.h"
 
 int main()
 {
-    int option;
-
-    std::cout << "Please choose an option." << std::endl;
-    std::cout << "Register: 1" << std::endl;
-    std::cout << "Login: 2" << std::endl;
-
-    std::cin >> option;
-
-    if(option == 1)
-    {
-        Register();
-    }
+    Initialize();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
